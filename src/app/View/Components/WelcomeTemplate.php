@@ -21,6 +21,6 @@ class WelcomeTemplate extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.welcome-template');
+        return view('layouts.app');
     }
 }
