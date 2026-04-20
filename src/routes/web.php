@@ -19,5 +19,5 @@ Livewire::setScriptRoute(function ($handle) {
 / END
 */
 Route::get('/', function () {
-    return view('layouts.app');
+    return view('welcome');
 });
